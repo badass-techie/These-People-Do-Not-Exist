@@ -6,7 +6,7 @@
 
 The model has a generator that samples random points from a gaussian distribution to form a latent space used to generate a face, and a discriminator that classifies the generated faces, competing against each other.
 
-The images the model was trained on and the ones the AI generates are low resolution - this may make them look a little blurry.
+The images the model was trained on and the ones the AI generates are low resolution - this may make them look a little blurry. Train longer for better results. 
 
 Below are some of the faces the AI created, which look plausible.
 
