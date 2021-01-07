@@ -4,7 +4,7 @@
 
 > deep-learning computer-vision deep-generative-modelling convolutional-neural-networks cnn python tensorflow keras generative-adversarial-networks gan generator discriminator latent-space latent-variables
 
-The model has a generator that samples random points from a gaussian distribution to form a latent space used to generate a face, and a discriminator that classifies the generated faces, competing against each other.
+The composite model has a generator that maps all points from a prior distribution to brand new data, and a discriminator that tells to which extent this data is similar to the original data, both training in parallel, with each model aiming to minimize it's own loss and maximize the other model's loss.
 
 The images the model was trained on and the ones the AI generates are low resolution - this may make them look a little blurry. Train longer for better results. 
 
