@@ -8,9 +8,9 @@ This is a very basic unofficial implementation of the research paper ["A Style-B
 
 ---
 
-### Techniques implemented from the paper
+### What has been implemented from the paper
 
-- Mapping the latent vector to an intermediate latent vector
+- Mapping of the latent vector to an intermediate latent vector, to reduce feature disentanglement
 - Use of bilinear upsampling with normal convolutions over transpose convolutions
 - Adaptive Instance Normalization
 - Constant generator input
